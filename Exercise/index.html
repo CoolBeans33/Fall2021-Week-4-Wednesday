@@ -17,21 +17,51 @@
     Make use of "Label", "Input" and "Table".
 </p>
 <form>
-    <div class="">
-        <label>Email</label>
+    <div class="Email">
+        <label><h2>Email</h2></label>
         <input type = "text" name="email" required  placeholder="Your email"/>
     </div>
-    <div class="">
-        <label>Firstname</label>
+    <div class="firstname">
+        <label><h2>Firstname</h2></label>
         <input type = "text" name="firstname"  placeholder="Your answer"/>
     </div>
-    <div class="">
-        <label>Lastname</label>
+    <div class="lastname">
+        <label><h2>Lastname</h2></label>
         <input type = "text" name="lastname" placeholder="Your answer"/>
     </div>
-    <div class="">
-        <label>Lastname</label>
-        <input type = "text" name="lastname" placeholder="Your answer"/>
+    <div class="researchinterest">
+        <label><h2>Research Interest (list at least 3)</h2></label>
+        <input type = "text" name="researchinterest" placeholder="Your answer"/>
+    </div>
+    <div class="projecttitle">
+        <label><h2>Project Title - (e.g. income vs education US Census)</h2></label>
+        <input type = "text" name="projecttitle" placeholder="Your answer"/>
+    </div>
+    <div class="topskills">
+        <label><h2>Top Skills</h2></label>
+        <input type = "checkbox" id = "SQL" name="SQL" value = "SQL" required/><label for="SQL">SQL</label><br>
+        <input type = "checkbox" id = "python" name="python" value = "python" required/><label for="SQL">Python programming</label><br>
+        <input type = "checkbox" id = "matlab" name="matlab" value = "matlab" required/><label for="Matlab">Matlab</label><br>
+        <input type = "checkbox" id = "D3js" name="D3js" value = "D3js" required/><label for="D3js">D3js and Javascript</label><br>
+        <input type = "checkbox" id = "C# VB.net" name="C# VB.net" value = "C# VB.net" required/><label for="C# VB.net">C# VB.net</label><br>
+        <input type = "checkbox" id = "PHP" name="PHP" value = "PHP" required/><label for="PHP">PHP</label><br>
+        <input type = "checkbox" id = "Node.JS" name="Node.JS" value = "Node.JS" required/><label for="Node.JS">Node.JS</label><br>
+        <input type = "checkbox" id = "WDT" name="WDT" value = "WDT" required/><label for="WDT">Web design tools (e.g. Wordpress)</label><br>
+        <input type = "checkbox" id = "HTML and CSS" name="HTML and CSS" value = "HTML and CSS" required/><label for="HTML and CSS">HTML and CSS</label><br>
+        <input type = "checkbox" id = "Excel" name="Excel" value = "Excel" required/><label for="Excel">Excel</label><br>
+        <input type = "checkbox" id = "PowerBI" name="PowerBI" value = "PowerBI" required/><label for="PowerBI">PowerBI</label><br>
+        <input type = "checkbox" id = "Tableau" name="Tableau" value = "Tableau" required/><label for="Tableau">Tableau</label><br>
+        <input type = "checkbox" id = "option13" name="option13" value = "option13" required/><label for="option13">Option 13</label><br>
+        <input type = "checkbox" id = "other" name="other" value = "other" required/><label for="other">Other:</label>
+        <input type = "text" id = "other" name="other" value = "other" required/><br>
+    </div>
+    <div class="suggestions">
+        <label><h2>Suggestions or Questions</h2></label>
+        <input type = "text" name="suggestions" placeholder="Your answer"/>
+    </div>
+    <hr>
+    <div class="submit/clear">
+        <input type = "submit" name="suggestions" placeholder="Submit"/>
     </div>
 </form>
 </body>
